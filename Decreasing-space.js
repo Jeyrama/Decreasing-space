@@ -18,3 +18,5 @@ function spacey(array) {
   }
   return newArray;
 }
+
+// or
