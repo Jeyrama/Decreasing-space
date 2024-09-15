@@ -8,3 +8,13 @@ For example, running this function on the array
 
 
 // Solution
+
+function spacey(array) {
+  const newArray = [];
+  let string = "";
+  for (let i = 0; i < array.length; i += 1) {
+    string += array[i];
+    newArray.push(string);
+  }
+  return newArray;
+}
